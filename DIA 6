@@ -1,0 +1,37 @@
+#otro programa mas con bucles 
+#cuenta atras 
+def cuenta_atras():
+    for cont in range(10,0,-1):
+        print(cont)
+    print("DESPEGUE.....")    
+cuenta_atras()
+ 
+#cuenta los pares 
+def cuenta_atras():
+    for cont in range(0,100,2):
+        print(cont)
+        print("ES PAR")
+    print("Estos son los numeros pares")    
+cuenta_atras()
+
+#suma los numeros pares hasta el 100
+def sumar_pares():
+    suma_par=0
+    for cont in range(0,100,2):
+        print(cont)
+        suma_par=suma_par+cont
+    print("SUMA DE LOS PARES= "+str(suma_par))   
+sumar_pares()
+
+#Detector de primos
+#lee un numero, da sus divisores y detecta
+#si es primo
+def detectar_primos():
+    num=input("Dime un número entero:")
+    for cont in range(num-1;0,-1 ):
+        rest-num%cont
+        if (resto==0)
+    
+    
+    
+detectar_primos()  
