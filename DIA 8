@@ -28,5 +28,3 @@ def saludador_2():
        else:
            print("Buenas noches Don Pepito")
 saludador_2()
-
-r
