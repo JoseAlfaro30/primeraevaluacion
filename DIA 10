@@ -1,13 +1,13 @@
-# pregunta cuanto dinero tienes y cuanto quieres sacar
-# y resta el dinero que te queda
+# Sistema que pregunta cuanto dinero tienes y cuanto dinero  quieres sacar
+# y el sistema resta el dinero que te queda
 def banco():
-    dinero=int(input("¿Cuanto dinero tienes? "))
+    dinero=int(input("¿Cuanto dinero tienes en estos momentos? "))
     seguir=True
     while(seguir==True):
-        sacar_dinero=int(input("¿Cuanto dinero quieres sacar? "))
+        sacar_dinero=int(input("¿Cuanto dinero quieres sacar? ")
         dinero_actual=dinero-sacar_dinero
         if(sacar_dinero> dinero):
-            print("No tienes tanto")
+            print("NO TIENES SUFICIENTE SALDO")
             seguir=True
         else:
             if(sacar_dinero<= dinero):
