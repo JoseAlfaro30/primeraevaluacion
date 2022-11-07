@@ -1,0 +1,12 @@
+def sistema_dni():
+    num = input("Introduzca el numero de  su DNI:  ")
+    intnumero = int(num)
+    lista = ["T","R","W","A","G","M","Y","F","P","D","X",
+               "B","N","J","Z","S","Q","V","H","L",
+               "C","K","E"]
+    resto = intnumero%23
+    letra = lista[resto]
+ 
+    print("Su letra del DNi es", letra,  "Y su número completo,", num, letra)
+ 
+sistema_dni()
