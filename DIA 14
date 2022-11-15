@@ -1,0 +1,33 @@
+def prueba_palabras():
+    palabra="tu eres un singer morning"
+    print(palabra.index("singer"))
+    
+prueba_palabras()
+
+def prueba_palabras():
+    password="Aprobare1"
+    if(password.islower() or password.isupper())
+    print("Incumple el criterio de tener mayus y minus")
+    
+prueba_palabras()
+
+
+
+def prueba_palabras():
+    password="Aprobare1"
+    if(password.islower() and password.isupper()):
+        print("Cumple el criterio de tener mayus y minus")
+    else:
+        print("No cumple el criterio de tener mayus y minus")
+    
+prueba_palabras()
+
+
+def prueba_palabras():
+    password="Aprobarare1"
+    if(password.islower() or password.isupper()):
+        print("No cumple el criterio de tener mayus y minus")
+    else:
+        print("Si cumple el criterio de tener mayus y minus")
+    
+prueba_palabras()
